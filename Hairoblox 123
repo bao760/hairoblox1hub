@@ -1,9 +1,13 @@
+       local Window = MakeWindow({
+         Hub = {
+         Title = "ĐẹpTRai",
+         Animation = "Hài Roblox"
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
     Title = "YTB: HaiRoblox",
-    SubTitle = "Beta Version",
+    SubTitle = "Beta Version 0.1",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true,
